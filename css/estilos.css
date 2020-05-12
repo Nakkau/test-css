@@ -1,24 +1,50 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 body{
-    background-image:url('http://imagens.baixarquadrinhos.com/2017/01/Ler-Online-Manga-Boku-no-Hero-123-Kohei-Horikosh-ou-Baixar-em-Cbr-e-Pdf.jpg');
-    background-size:auto 45vh;
+    background-image:url('https://dzone.com/storage/temp/12721356-pic-html-on-page.jpg');
+    background-size:auto 250vh;
     font-family:arial;
     height: 100vh;
+    font-size: 12px;
+  }
+@media(min-width:600px){
+  body{
+    font-size: 20px;
+  }
+
+}
+  header {
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .menu{
-    background-color:white;
-  }
-  .menu li{
-    list-style: none;
+    background-color:rgb(29, 20, 51);
+    position:fixed;
+    width: 100vw;
+    top: 0;
   }
   
   .menu ul{
     display:flex;
     justify-content: space-around;
   }
-  
+  .menu li{
+    list-style: none;
+  }
+  .menu a {
+    background-color:rgb(24, 2, 43);
+    display: block;
+    padding: 2px 20px;
+  }
+
   a{
-    color:black;
+    color:whitesmoke;
     text-decoration: none;
   }
   
@@ -28,7 +54,18 @@ body{
   
   .site-title,
   .site-subtitle {
-    background-color:whitesmoke;
     text-align: center;
+    color:whitesmoke;
   }
-    
+ .img-portfolio{
+   height: 250px;
+   height: 150px;
+ } 
+ .img-portfolio2{
+  height: 218px;
+  height: 133px
+ }
+ .portfolio{
+   text-align: center;
+   color: whitesmoke;
+ }
